@@ -1,23 +1,4 @@
-#include<stdio.h>
-
-/**
- * print_alphabet - entry point
- * Description: function to output all lower case alphabets
- *
- * Return: void
- */
-
-void print_alphabet(void)
-{
-	char i = 'a';
-
-	while (i <= 'z')
-	{
-		putchar(i);
-		i++;
-	}
-	putchar('\n');
-}
+#include "main.h"
 
 /**
  * main - entry point
@@ -27,7 +8,16 @@ void print_alphabet(void)
 
 int main(void)
 {
-	print_alphabet();
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 
 }
